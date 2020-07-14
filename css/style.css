@@ -1,4 +1,23 @@
-
+/**
+ * GENERAL
+**/
+html {
+    scroll-behavior: smooth;
+}
+h2 {
+    margin-bottom: 100px;
+    text-align: center;
+}
+ul {
+    padding-left: 0px;
+}
+li {
+    list-style-type: none;
+}
+#howto, #price, #testimony {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
 
 /**
  * TEXTE SLIDER
@@ -27,10 +46,9 @@ h1{
 /**
  * HOW TO ?
 **/
-.howto {
+#howto {
     background-color: green;
     color: #fff;
-    text-align: center;
 }
 .block {
     display: block;
@@ -39,6 +57,26 @@ h1{
 /**
  * PRICE
 **/
-.price {
+#price {
     text-align: center;
+}
+.euro {
+    font-size: 0.5em;
+}
+
+/**
+ * TESTIMONY
+**/
+#testimony {
+    background-color: green;
+    color: #fff;
+    text-align: center;
+}
+#carouselTestimonyControls {
+    margin: 0 auto;
+    width: 30%;
+}
+.pictureTestimony {
+    margin: 10px auto;
+    width: 150px;    
 }
